@@ -1,0 +1,268 @@
+@charset "utf-8";
+body{
+	border-top:5px solid #09238B;
+	font-family: '微软雅黑';
+
+}
+/*box*/
+.box{
+	width: 1000px;
+	margin: 0 auto;
+}
+/*head*/
+.box .head{
+	height: 78px;
+}
+.box .head img{
+float: left;
+margin-top: 13px;
+margin-right: 80px;
+}
+.box .head p{
+	float: right;
+	background: #09238B;
+	border-radius: 5px;
+	width: 137px;
+	height: 27px;
+	margin-top: -5px;
+	line-height: 27px;
+	text-align: center;
+	color: #fff;
+}
+.head p a{
+	color: #fff;
+}
+/*nav*/
+.nav ul{
+	margin-top: -22px;
+}
+.nav ul li{
+	float: left;
+	padding: 0 8px;
+}
+.nav li a{
+	font-family: '微软雅黑';
+	font-size: 14px;
+	color: #333333;
+}
+/*banner*/
+.banner img{
+	margin: 28px auto;
+}
+/*content*/
+.content {
+	width: 1000px;
+	margin: 0 auto;
+}
+.content .first{
+		height: 154px;
+		margin-bottom:30px ;
+
+}
+.content .first li{
+	float: left;
+	width: 250px;
+	height: 154px;
+	text-align: center;
+}
+.content li a{
+	font-size: 14px;
+}
+.content .yi a{
+	font-size: 24px;
+	color: #fff;
+}
+.content  .yi{
+	line-height: 154px;
+	background:url(file:///C|/Users/Administrator/Desktop/%E8%BF%9C%E6%B4%8B%E8%88%AA%E5%8A%A1/img/bg1.jpg) no-repeat center center;
+}
+.content  .er{
+			background:url(file:///C|/Users/Administrator/Desktop/%E8%BF%9C%E6%B4%8B%E8%88%AA%E5%8A%A1/img/bg2.jpg) no-repeat center center;
+}
+.content .san{
+				background:url(file:///C|/Users/Administrator/Desktop/%E8%BF%9C%E6%B4%8B%E8%88%AA%E5%8A%A1/img/bg3.jpg) no-repeat center center;
+}
+.content .si{
+					background:url(file:///C|/Users/Administrator/Desktop/%E8%BF%9C%E6%B4%8B%E8%88%AA%E5%8A%A1/img/bg4.jpg) no-repeat center center;
+
+}
+.content .er a,.san a,.si a{
+	position: relative;
+	top: 127px;
+}
+.second{
+	border:1px solid #ccc;
+	height: 481px;
+}
+.second .top1{
+	height: 50px;
+	width:686px ;
+	line-height: 50px;
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+
+}
+.second h4{
+	float: left;
+	margin-left:10px ;
+}
+.second .top1 p{
+	float: right;
+	margin-right:10px;
+}
+.second ul{
+	height: 431px;
+	width: 686px;
+	border-right: 1px solid #ccc;
+}
+.second li{
+	height: 107px;
+	width: 686px;
+}
+.second .zuo {
+	float: left;
+	width: 100px;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	color: #fff;
+	background: rgba(0, 20, 200, 0.3);
+	margin-top:15px;
+	margin-left: 15px;
+}
+.second .you{
+	float: right;
+	line-height: 28px;
+	margin-top:15px;
+	margin-right: 20px;
+}
+.second .you a{
+	font-size: 12px;
+}
+.second .left{
+	float: left;
+}
+.second .right{
+	float: right;
+}
+.second .top2{
+	height: 50px;
+	width:310px ;
+	line-height: 50px;
+	border-bottom: 1px solid #ccc;
+}
+.second .top2 h4{
+	float: left;
+}
+.second .top2 p{
+	float: right;
+	margin-right:10px;
+}
+.second .right .img1{
+	width: 310px;
+	height: 257px;
+	border-bottom:1px solid #ccc ;
+}
+.second .right .img1 img{
+	margin: 15px 10px;
+}
+.second .right .img2{
+	width: 310px;
+	height: 171px;
+}
+.second .img2 img{
+	margin: 20px 10px;
+}
+.third {
+	margin: 30px 0;
+	height: 260px;
+}
+.third h3{
+	margin: 30px 0 20px 10px;
+}
+.jiushipiao{
+	width: 998px;
+	height: 220px;
+}
+
+.third ul{
+	width: 860px;
+	height: 220px;
+	display: inline-block;
+}
+.third ul li{
+	float: left;
+	margin: 5px;
+}
+.third .youbian{
+	display: inline-block;
+	position: relative;
+	top: -10px;
+	right: -20px;
+}
+
+.youqinglianjie
+{
+	height: 89px;
+	background: #F0F0F0;
+	padding-top: 15px;
+}
+.youqinglianjie h3,.youqinglianjie ul{
+	margin-left:228px ;
+}
+.youqinglianjie ul{
+	margin-top:15px;
+}
+.youqinglianjie ul li{
+	float: left;
+	margin-right:50px ;
+}
+	.bottom{
+	height: 295px;
+	background: #ccc;
+	position: relative;
+}
+.bottom ul{
+	float: left;
+	margin-right: 95px;
+}
+.bottom .bottom1{
+	margin-left: 220px;
+}
+.bottom li{
+	margin-top:30px ;
+}
+.baozhu{
+	float: left;
+}
+.baozhua{
+	position: absolute;
+	right: 0;
+	top: 30px;
+}
+.gw1{
+	width: 84px;
+	height: 84px;
+	display: inline-block;
+	text-align: center;
+	float: left;
+	line-height: 200px;
+	margin-top: 20px;
+background:url(file:///C|/Users/Administrator/Desktop/%E8%BF%9C%E6%B4%8B%E8%88%AA%E5%8A%A1/img/erweima1.jpg) no-repeat center center;}
+.gw2{
+	width: 84px;
+	height: 84px;
+	display: inline-block;
+		text-align: center;
+		line-height: 200px;
+float: right;
+margin-right: 30px;
+margin-top: 20px;
+
+	background:url(file:///C|/Users/Administrator/Desktop/%E8%BF%9C%E6%B4%8B%E8%88%AA%E5%8A%A1/img/erweima2.jpg) no-repeat center center;
+}
+#u{
+	width: 200px;
+	float: right;
+	margin-right:70px ;
+}
